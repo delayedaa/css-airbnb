@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #EDEFEC;
+  color: #575A5C;
+}
+
+section {
+  display: grid;
+  gap: 0 2.5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:  90px auto;
+  max-width: 1490px;
+  width: 90vw;
+}
+
 h1 {
-  color: salmon;
+  font-size: 3em;
+  grid-column: 1 / span 3;
+  padding-bottom: 0.15em;
+}
+
+p {
+  font-size: 1.4em;
+  grid-column: 1 / span 3;
+  padding-bottom: 2.6em;
+}
+
+div {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  font-size: 3em;
+  margin: 48% 0;
+}
+
+.san-francisco {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.new-york {
+  background-image: url("../img/new-york.jpg");
+}
+
+.london {
+  background-image: url("../img/london.jpg");
+}
+
+.napa {
+  background-image: url("../img/napa.jpg");
+}
+
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
+
+.san-francisco2 {
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+button {
+  background-color: white;
+  border: 2px solid #C3C3C3;
+  color: #575A5C;
+  font-size: 1.4em;
+  font-weight: 700;
+  grid-column: 2 / span 1;
+  margin-top: 3.2em;
+  padding: .75em;
 }
